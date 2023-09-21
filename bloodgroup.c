@@ -5,7 +5,7 @@ void main()
   int i;
   do
   {
-    printf("What is your Name Gam? ");
+    printf("What is your Name? ");
     scanf("%s", Name);
     do
     {
@@ -41,7 +41,7 @@ void main()
       printf("%s, O. Nice! You can give blood to all: O, A, B, AB\n", Name);
       printf("  But Sad! You can receive blood only from: O\n");
     }
-    printf("\nContinue (YES for Yes and I LOVE YOUUUUUUUUUUU)? ");
+    printf("\nContinue (YES for Yes and I LOVE)? ");
     scanf("%s", answer);
   } while (strcmp(answer, "YES") == 0);
   printf("Goodbye\n");
